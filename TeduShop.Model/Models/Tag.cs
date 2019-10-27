@@ -7,10 +7,13 @@ namespace TeduShop.Model.Models
     public class Tag
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ID { set; get; }
-
+        [MaxLength(50)]
+        public string ID { set; get; }
+        [Required]
+        [MaxLength(50)]
         public string Name { set; get; }
+        [Required]
+        [MaxLength(50)]
         public string Type { set; get; }
     }
 }

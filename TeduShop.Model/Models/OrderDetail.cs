@@ -12,12 +12,11 @@ namespace TeduShop.Model.Models
     public class OrderDetail
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int OrderID { set; get; }
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+       
         public int ProductID { set; get; }
-        public int? Quality { set; get; }
+        public int Quality { set; get; }
         [ForeignKey("OrderID")]
         public virtual Order Order { set; get; }
         [ForeignKey("ProductID")]

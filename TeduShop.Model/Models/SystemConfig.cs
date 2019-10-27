@@ -12,11 +12,13 @@ namespace TeduShop.Model.Models
     public class SystemConfig
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { set; get; }
         [Required]
+        [Column(TypeName ="varchar")]
+        [MaxLength(50)]
         public string Code { set; get; }
+        [MaxLength(50)]
         public string ValueString {get;set;}
-        public int ValueInt { set; get; }
+        public int? ValueInt { set; get; }
     }
 }
