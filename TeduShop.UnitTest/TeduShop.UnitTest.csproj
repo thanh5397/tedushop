@@ -5,12 +5,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BD5F174C-6E18-450D-95C0-09055285D59B}</ProjectGuid>
+    <ProjectGuid>{5681CB55-ED10-4EBA-85CF-B61EF31D9036}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TeduShop.UnitTest</RootNamespace>
     <AssemblyName>TeduShop.UnitTest</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
@@ -56,23 +56,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TeduShop.Common\TeduShop.Common.csproj">
-      <Project>{be747298-293c-418e-9ac2-0a18b6c6d165}</Project>
+      <Project>{31c2fcd7-df89-49da-8d60-b34720ce5e19}</Project>
       <Name>TeduShop.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\TeduShop.Data\TeduShop.Data.csproj">
-      <Project>{456961de-66ec-436d-bd88-368874704c51}</Project>
+      <Project>{075757b7-7265-4f78-a9ac-311b75681ab9}</Project>
       <Name>TeduShop.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\TeduShop.Model\TeduShop.Model.csproj">
-      <Project>{02a6ad6e-60cb-49d1-b23c-a04835768b5f}</Project>
+      <Project>{0247ffbc-7a94-43e7-b078-28cad2decaf7}</Project>
       <Name>TeduShop.Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\TeduShop.Service\TeduShop.Service.csproj">
-      <Project>{63612596-7d02-40c2-a2e5-9e0375009bfa}</Project>
+      <Project>{ccb5d30c-5a3c-464b-9131-7178909d7dc2}</Project>
       <Name>TeduShop.Service</Name>
     </ProjectReference>
     <ProjectReference Include="..\TeduShop.Web\TeduShop.Web.csproj">
-      <Project>{b8f36217-ebec-4d63-8a8e-540b0903f161}</Project>
+      <Project>{01ea2928-c33e-4007-b265-ea60ddfc6f4b}</Project>
       <Name>TeduShop.Web</Name>
     </ProjectReference>
   </ItemGroup>
